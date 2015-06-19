@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bg {
+  overflow: hidden;
+  background: url(../img/back.jpg) top center fixed no-repeat;
+  background-size: cover;
+}
+
+.active {
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Home {
+  text-align: center;
+}
+
+.Home-logo {
+  height: 156px;
+  display: block;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+.Home-titulo {
+  color: #fff;
+  font-size: 60px;
+  display: block;
+  margin: 50px auto;
+  text-shadow: 0px 0px 5px #000;
+  letter-spacing: 10px;
+}
+
+.Home-menu {
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.Home-menu ul li {
+  display: inline;
+}
+
+.Home-menu ul li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 42px;
+}
+
+.Navegacion {
+  padding: 30px 0;
+}
+
+.Navegacion-logo {
+  color: #000;
+  width: 40px;
+  float: left;
+}
+
+.Navegacion-titulo {
+  margin-left: 20px;
+  margin-top: 2px;
+  color: #000;
+  float: left;
+  font-size: 40px;
+}
+
+.Navegacion-menu {
+  margin-top: 15px;
+  float: right;
+}
+
+.Navegacion-menu li {
+  display: inline;
+}
+
+.Navegacion-menu li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 42px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.Navegacion-menu li a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.Content-subTitle {
+  margin: 100px 0;
+  font-size: 30px;
+  text-align: left;
+}
+
+.Galeria {
+  margin-top: 65px;
+}
+
+.Galeria-item {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.Galeria-item-img {
+  width: 100%;
+  float: left;
+}
+
+.Galeria-item-description {
+  background: #000;
+  padding: 15px;
+  float: left;
+}
+
+.Galeria-item-description h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.Galeria-item-description span {
+  border-bottom: 1px solid #fff;
+  padding-top: 15px;
+  height: 2px;
+  display: block;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.Galeria-item-description p {
+  color: #fff;
+  font-weight: lighter;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Galeria-item-description strong {
+  color: #fff;
+  float: right;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.About {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About-left {
+  -webkit-box-flex: 1.2;
+  -webkit-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+  margin-right: 25px;
+}
+
+.About-left h3 {
+  font-size: 45px;
+  color: #cdcdcd;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cdcdcd;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.About-center {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.About-right {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: left;
+  line-height: 40px;
+  font-size: 35px;
+}
