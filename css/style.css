@@ -63,7 +63,7 @@ body {
   text-align: center;
 }
 
-.Home-logo {
+.Home-logo svg {
   height: 156px;
   display: block;
   padding-top: 150px;
@@ -79,28 +79,33 @@ body {
   letter-spacing: 10px;
 }
 
-.Home-menu {
+.Menu-principal {
   display: block;
   margin: 0 auto;
-  margin-top: 90px;
 }
 
-.Home-menu ul li {
+.Menu-principal ul li {
   display: inline;
 }
 
-.Home-menu ul li a {
+.Menu-principal ul li a {
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 0 42px;
+  margin: 0 42px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.Menu-principal ul li a:hover {
+  border-bottom: 1px solid #000;
 }
 
 .Navegacion {
   padding: 30px 0;
 }
 
-.Navegacion-logo {
+.Navegacion svg {
   color: #000;
   width: 40px;
   float: left;
@@ -117,23 +122,6 @@ body {
 .Navegacion-menu {
   margin-top: 15px;
   float: right;
-}
-
-.Navegacion-menu li {
-  display: inline;
-}
-
-.Navegacion-menu li a {
-  color: #000;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 0 42px;
-  padding-bottom: 5px;
-  text-align: center;
-}
-
-.Navegacion-menu li a:hover {
-  border-bottom: 1px solid #000;
 }
 
 .Content-subTitle {
@@ -237,4 +225,91 @@ body {
   text-align: left;
   line-height: 40px;
   font-size: 35px;
+}
+
+.Mapa {
+  margin-bottom: 50px;
+}
+
+.Contacto {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+.Contacto .Formulario {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.Contacto .Formulario form {
+  width: 40%;
+}
+
+.Contacto .Formulario form input {
+  padding: 10px;
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 5px;
+  text-align: left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: block;
+  width: 100%;
+}
+
+.Contacto .Formulario form input:after {
+  content: "*";
+}
+
+.Contacto .Formulario form button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.Contacto .Datos {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Contacto .Datos h3 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.Contacto .Datos p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Contacto .Redes-sociales {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Contacto .Redes-sociales a {
+  display: block;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.Contacto .Redes-sociales a span {
+  font-size: 20px;
+  margin: 0 10px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
 }
