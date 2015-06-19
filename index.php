@@ -1,15 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Jewel</title>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>Hola</h1>
-
-
+<?php include("inc/header.php");?>
+<body class="bg">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var _currentFill = "#f00"; // red
+            $svg = $("#svglogo");
+            $("#diamante", $svg).attr('style', "fill:"+_currentFill); })
+        });
+    </script>
+    <header class="Home">
+        <div class="Home-logo">
+            <?php
+                $colorSvg = "#fff";
+                include("logo-svg.php");
+            ?>
+        </div>
+        <h1 class="Home-titulo">JEWEL</h1>
+        <nav class="Home-menu">
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
